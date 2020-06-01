@@ -14,7 +14,7 @@ const Header = (props) => {
   useEffect(() => {
     setTimeout(() => {
       logoutCall();
-    }, 60000);
+    }, 90000);
   }, [props]);
   return (
     <div>
